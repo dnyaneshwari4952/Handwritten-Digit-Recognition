@@ -1,0 +1,24 @@
+# Core Machine Learning & Deep Learning
+tensorflow>=2.16.0; sys_platform != 'win32'
+tensorflow-cpu>=2.16.0; sys_platform == 'win32'
+keras>=3.0.0
+numpy>=1.26.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+pandas>=2.2.0
+
+# Image Processing & Visualization
+Pillow>=10.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Interactive Web Application
+streamlit>=1.35.0
+streamlit-drawable-canvas>=0.9.3
+
+# Utilities & API Support
+requests>=2.31.0
+fastapi>=0.111.0
+uvicorn>=0.30.0
+httpx>=0.27.0
+python-multipart>=0.0.9

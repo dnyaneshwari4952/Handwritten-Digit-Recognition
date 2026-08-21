@@ -1,0 +1,27 @@
+# Auto detect text files and perform LF normalization on checkout
+* text=auto eol=lf
+
+# Python source files
+*.py text diff=python eol=lf
+*.ipynb text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+Dockerfile text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary Assets (Prevent line ending conversion and corruption)
+*.keras binary
+*.h5 binary
+*.weights.h5 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text

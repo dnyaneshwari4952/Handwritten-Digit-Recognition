@@ -1,0 +1,13 @@
+# Development & Testing Tools
+pytest>=8.0.0
+pytest-cov>=4.1.0
+ruff>=0.4.0
+black>=24.0.0
+ipykernel>=6.29.0
+jupyterlab>=4.2.0
+
+# Optional API Extension
+fastapi>=0.111.0
+uvicorn>=0.30.0
+httpx>=0.27.0
+python-multipart>=0.0.9
