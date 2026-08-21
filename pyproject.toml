@@ -7,7 +7,7 @@ name = "mnist-digit-recognition"
 version = "1.0.0"
 description = "Production-Grade Deep Learning Vision System for Handwritten Digit Recognition with Streamlit Studio, CLI, and FastAPI"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.14"
 license = { text = "MIT" }
 authors = [
     { name = "Deep Learning Engineer" }
@@ -36,8 +36,8 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Image Recognition",
 ]
 dependencies = [
-    "tensorflow-cpu>=2.16.0; sys_platform == 'win32'",
-    "tensorflow>=2.16.0; sys_platform != 'win32'",
+    "tensorflow-cpu>=2.16.0; sys_platform != 'darwin'",
+    "tensorflow>=2.16.0; sys_platform == 'darwin'",
     "keras>=3.0.0",
     "numpy>=1.26.0",
     "scipy>=1.11.0",
