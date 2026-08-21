@@ -109,7 +109,6 @@ Handwritten Digit Recognition/
 ├── Dockerfile                   # Production container definition
 ├── docker-compose.yml           # Dual service orchestration
 ├── LICENSE                      # MIT Open Source License
-├── packages.txt                 # Debian system dependencies for Streamlit Cloud
 ├── pyproject.toml               # PEP 517/518 / 621 Python packaging configuration
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Core production dependencies
@@ -219,7 +218,7 @@ Deploying this application to **Streamlit Community Cloud** takes less than 2 mi
 3. Click **"New app"**.
 4. Select your repository (`your-username/your-repo-name`), branch (`main`), and set **Main file path** to `streamlit_app.py` (or `app/streamlit_app.py`).
 5. Click **"Deploy!"**.
-6. The app will automatically read `requirements.txt`, `packages.txt`, and `.streamlit/config.toml`, loading the pre-trained CNN model instantly.
+6. The app will automatically read `requirements.txt` and `.streamlit/config.toml`, loading the pre-trained CNN model instantly.
 
 ---
 
